@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@font-face {
+  font-family: 'SF Pro Display Medium';
+  src: local('SF Pro Display Medium') url(./assets/fonts/SF-Pro-Display-Medium.otf) format(otf);
+}
+@font-face {
+  font-family: 'SF Pro Display Regular';
+  src: local('SF Pro Display Regular') url(./assets/fonts/SF-Pro-Display-Regular.otf) format(otf);
+}
+@tailwind utilities;
+
+body {
+  max-width: 1600px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  width: 1200px;
+}
+
